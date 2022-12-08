@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Gallery</title>
+    <style>
+       img{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family:Georgia, 'Times New Roman', Times, serif
+       } 
+
+
+       .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 40px 20px 0 20px ;
+        color: #fff;
+       }
+
+       .container .heading{
+           width: 50%;
+           padding-bottom: 0%;
+       }
+       .container .heading h3{
+        font-size: 3em;
+        font-weight: bolder;
+        border-bottom: 3px solid white;
+    }
+
+    .container .heading h3 span{  
+        font-weight: 70;    
+    }
+    .container .box{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       
+
+    }
+    .container .box .dream{
+        display: flex;
+        flex-direction: column ;
+        width:32.5%;
+
+
+
+    }
+
+    
+    .container .box .dream img{
+        padding-bottom: 15px;
+        border-radius: 5px;
+        padding-left: 15px;
+        width: 100%;
+        }
+        img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+    .container .btn{
+        margin: 40px 0 70px 0;
+        background-color: #fff;
+        padding: 15px 40px;
+        border-radius: 5px;
+    }
+    .container .btn a{
+        color: black;
+        font-size: 1.2em;
+        text-decoration: none;
+        font-weight: bolder;
+        letter-spacing: 3px;
+    }
+
+       </style>
+</head>
+<body style="background-color:black;">
+    
+    <div class="container">
+        <div class="heading">
+            <h3>Fitness <span>Gallery</span></h3>
+        </div>
+       <div class="box">
+
+       <div class="dream">
+        <img src="bodybuilder_1.jpg" >
+        <img src="bodybuilder_3.png" >
+        <img src="bodybuilder_4.jpg" >
+        <img src="bodybuilder_5.jpg" >
+        
+        </div>
+ 
+        <div class="dream">
+            <img src="bodybuilder_6.jpg" >
+            <img src="bodybuilder_7.jpg" >
+            <img src="bodybuilder_8.jpg" >
+            <img src="bodybuilder_9.jpg" >
+            
+            </div>
+    
+            <div class="dream">
+            <img src="bodybuilder_11.jpg" >
+            <img src="bodybuilding_12.png" >
+            <img src="bodybuilding_13.png" >
+            <img src="bodybuilding_14.png" >
+            <img src="bodybuilding_15.png" >
+            
+            </div> 
+            <div class="dream">
+                <img src="bodybuilding_16.png" >
+                <img src="bodybuilding_17.png" >
+                <img src="bodybuilding_18.png" >
+                <img src="bodybuilding_19.png" >
+                <img src="bodybuilding_20.png" >
+                
+                </div> 
+                <div class="dream">
+                    <img src="bodybuilding_21.png" >
+                    <img src="bodybuilding_22.png" >
+                    <img src="bodybuilding_23.png" >
+                    <img src="bodybuilding_24.png" >
+                    <img src="bodybuilding_25.jpg" >
+                    
+                </div> 
+            </div>
+            <div class="btn">
+                <a href="#">More</a>
+                </div>
+
+</body>
+</html>
